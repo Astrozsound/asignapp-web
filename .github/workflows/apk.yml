@@ -13,7 +13,7 @@ name: APK de ASIGNAPP
 
 on:
   push:
-    branches: [main]
+    branches: [main, master]
   workflow_dispatch:
 
 jobs:
