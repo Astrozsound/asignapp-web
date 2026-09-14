@@ -1,0 +1,129 @@
+sku,nombre,categoria,unidad,cantidad,requiere_revision,motivo_revision,hoja_origen,fila_origen,nota_origen
+CON-001,Aceite 10W-30,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,7,
+CON-002,Aceite de motor 20W-50,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,12,
+CON-003,Aceite de motor Premium 4-Cycle,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,15,
+CON-004,Aceite de motor pequeño Premium 4-Cycle,Consumibles,UND,1.0,False,,Inventario Herramientas,8,13 de sep 2025
+CON-005,Aceite dos tiempos 2T,Consumibles,UND,1.0,False,,Inventario Herramientas,15,9 sep 2025
+CON-006,Aceites y mecha 2T Two Cycle dos ciclos,Consumibles,UND,2.0,False,,Inventario Herramientas,7,13 de sep 2025
+CON-007,Acelerante,Consumibles,UND,4.0,False,,Inventario Herramientas,19,9 sep 2025
+CON-008,Acelerante de Swiru,Consumibles,UND,1.0,False,,Inventario Herramientas,26,
+CON-009,Atomizador,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | coincide con una compra del 20 oct 2025; verificar que no se cuente dos veces",Inventario 5 Oct 2025,22,
+CON-010,Bolsa de hormiguicida 10WP,Consumibles,PAQ,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,25,
+CON-011,Botella de pegamento chica - PVC,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,17,
+CON-012,Brocas de metal,Consumibles,UND,2.0,False,,Inventario Herramientas,6,13 de sep 2025
+CON-013,Brocas grandes total,Consumibles,UND,2.0,False,,Inventario Cont.,16,17 de nov 2025
+CON-014,Bujía NGK,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,14,
+CON-015,Bujías de Swiru,Consumibles,UND,2.0,False,,Inventario Herramientas,25,
+CON-016,Caja de electrodos total,Consumibles,CAJA,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,13,
+CON-017,Disco de flexible grande verde,Consumibles,UND,2.0,False,,Inventario Herramientas,30,
+CON-018,Discos de concreto,Consumibles,UND,3.0,True,aparece 2 veces — Inventario Herramientas f11: 3.0 / Inventario 5 Oct 2025 f19: 2.0,Inventario Herramientas,11,9 sep 2025
+CON-019,Discos de concreto,Consumibles,UND,2.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | aparece 2 veces — Inventario Herramientas f11: 3.0 / Inventario 5 Oct 2025 f19: 2.0",Inventario 5 Oct 2025,19,
+CON-020,Discos de concreto pequeños,Consumibles,UND,10.0,False,,Inventario Herramientas,10,9 sep 2025
+CON-021,Discos de corte chico,Consumibles,UND,3.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,28,
+CON-022,Discos de corte grandes,Consumibles,UND,1.0,False,,Inventario Herramientas,9,9 sep 2025
+CON-023,Discos de flexible grande (10-12 oct 2025),Consumibles,UND,2.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,29,
+CON-024,Frasco de grasa,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,18,
+CON-025,"Galonera, aceite de motor",Consumibles,GAL,2.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,3,
+CON-026,Galón de pentadrín (comején),Consumibles,GAL,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,23,
+CON-027,Galón primoplato (Veneno),Consumibles,GAL,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,24,
+CON-028,Hilos amarillos,Consumibles,UND,2.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | coincide con una compra del 15 sep 2025; verificar que no se cuente dos veces",Inventario 5 Oct 2025,10,
+CON-029,Impermeabilizante,Consumibles,UND,2.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | coincide con una compra del 1 oct 2025; verificar que no se cuente dos veces",Inventario 5 Oct 2025,6,
+CON-030,Impermeabilizantes,Consumibles,UND,3.0,True,coincide con una compra del 1 oct 2025; verificar que no se cuente dos veces,Inventario Herramientas,20,9 sep 2025
+CON-031,Lijas,Consumibles,UND,2.0,True,aparece 2 veces — Máquina y Herramientas f5: 2.0 / Inventario Herramientas f5: 2.0,Máquina y Herramientas,5,
+CON-032,Lijas,Consumibles,UND,2.0,True,aparece 2 veces — Máquina y Herramientas f5: 2.0 / Inventario Herramientas f5: 2.0,Inventario Herramientas,5,13 de sep 2025
+CON-033,Pastillas de Clorox,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,16,
+CON-034,Pegamento chico,Consumibles,UND,2.0,False,,Inventario Herramientas,13,9 sep 2025
+CON-035,Pentadrín para planta- portector quimico liquido,Consumibles,UND,1.0,False,,Máquina y Herramientas,20,1 de oct 2025
+CON-036,Plastificante,Consumibles,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | coincide con una compra del 1 oct 2025; verificar que no se cuente dos veces",Inventario 5 Oct 2025,5,
+CON-037,Silicón en plástico,Consumibles,UND,1.0,False,,Inventario Herramientas,23,9 sep 2025
+CON-038,Silicón permanente entero,Consumibles,UND,1.0,False,,Inventario Herramientas,22,9 sep 2025
+CON-039,Sobre de fungicida (Ridomil),Consumibles,PAQ,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,26,
+CON-040,Trampa grasa 12 lbs verde,Consumibles,KG,3.0,False,,Inventario Cont.,7,
+CON-041,Vasos,Consumibles,UND,3.0,True,coincide con una compra del 20 oct 2025; verificar que no se cuente dos veces,Inventario Herramientas,27,sep 2024 / 2025
+CON-042,Vasos plásticos blancos,Consumibles,UND,24.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | coincide con una compra del 20 oct 2025; verificar que no se cuente dos veces",Inventario 5 Oct 2025,27,
+CON-043,WD-40,Consumibles,UND,3.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | aparece 2 veces — Inventario Herramientas f14: 1.0 / Inventario 5 Oct 2025 f9: 3.0",Inventario 5 Oct 2025,9,
+EQU-001,Andamio color verde,Equipos,UND,1.0,False,,Inventario Equipo,20,Feb 2016 / 2020
+EQU-002,Carretillas,Equipos,UND,2.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | aparece 3 veces — Inventario Equipo f14: 4.0 / Inventario Herramientas f28: 4.0 / Inventario 5 Oct 2025 f31: 2.0",Inventario 5 Oct 2025,31,
+EQU-003,"Carretillas (2 azules, 1 metal, y una amarilla)",Equipos,UND,4.0,True,aparece 3 veces — Inventario Equipo f14: 4.0 / Inventario Herramientas f28: 4.0 / Inventario 5 Oct 2025 f31: 2.0,Inventario Herramientas,28,13 de oct 2025
+EQU-004,Carretillas (una amarilla y otras de metal),Equipos,UND,4.0,True,aparece 3 veces — Inventario Equipo f14: 4.0 / Inventario Herramientas f28: 4.0 / Inventario 5 Oct 2025 f31: 2.0,Inventario Equipo,14,
+EQU-005,Escalera de metal grande,Equipos,UND,1.0,False,,Inventario Equipo,16,Junio 2020
+EQU-006,Plantas eléctricas,Equipos,UND,2.0,False,,Inventario Equipo,3,Referencias: #1 2010 / #1 2018
+EQU-007,Soporte de carretilla,Equipos,UND,1.0,True,coincide con una compra del 1 oct 2025; verificar que no se cuente dos veces,Máquina y Herramientas,21,1 de oct 2025
+EQU-008,Tablero de,Equipos,UND,1.0,True,descripción incompleta,Máquina y Herramientas,17,12 de sep 2025
+HER-001,(cantidad sin descripción legible),Herramientas,UND,58.0,True,descripción ilegible en el cuaderno original | coincide con una compra del 15 sep 2025; verificar que no se cuente dos veces,Máquina y Herramientas,18,
+HER-002,Cepillo de flexible chico,Herramientas,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,20,
+HER-003,Cepillo de flexible grande,Herramientas,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,21,
+HER-004,Chalk line,Herramientas,UND,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,8,
+HER-005,Destornilladores,Herramientas,UND,,True,cantidad marcada como '-' o vacía,Máquina y Herramientas,10,
+HER-006,Destornilladores chicos,Herramientas,UND,1.0,True,aparece 2 veces — Inventario Herramientas f29: 1.0 / Inventario 5 Oct 2025 f30: nan,Inventario Herramientas,29,13 de oct 2025
+HER-007,Destornilladores chicos,Herramientas,UND,,True,"cantidad marcada como '-' o vacía | proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general | aparece 2 veces — Inventario Herramientas f29: 1.0 / Inventario 5 Oct 2025 f30: nan",Inventario 5 Oct 2025,30,
+HER-008,Extensión eléctrica,Herramientas,UND,1.0,False,,Inventario Herramientas,12,
+HER-009,Flexible de corriente,Herramientas,UND,1.0,False,,Inventario Equipo,27,
+HER-010,Flexible inalámbrico,Herramientas,UND,1.0,False,,Inventario Equipo,24,31 de oct 2025 / 9 sep 2025
+HER-011,Llave de agua,Herramientas,UND,4.0,False,,Inventario Herramientas,32,2025
+HER-012,Llaves,Herramientas,UND,,True,cantidad marcada como '-' o vacía | coincide con una compra del 6 oct 2025; verificar que no se cuente dos veces,Máquina y Herramientas,8,
+HER-013,Lámpara nocturna prolatex,Herramientas,UND,1.0,True,aparece 2 veces — Inventario Equipo f25: 1.0 / Inventario Equipo f26: 1.0,Inventario Equipo,25,7 de junio 2024
+HER-014,Lámpara nocturna prolatex,Herramientas,UND,1.0,True,aparece 2 veces — Inventario Equipo f25: 1.0 / Inventario Equipo f26: 1.0,Inventario Equipo,26,7 de junio 2025
+HER-015,Láser verde,Herramientas,UND,1.0,False,,Inventario Cont.,3,
+HER-016,Machetes Swiru,Herramientas,UND,2.0,False,,Inventario Herramientas,16,9 sep 2025
+HER-017,Olladora color verde,Herramientas,UND,1.0,False,,Inventario Equipo,17,
+HER-018,Palas,Herramientas,UND,,True,cantidad marcada como '-' o vacía,Máquina y Herramientas,6,
+HER-019,"Pistola grande anaranjada, hueso",Herramientas,UND,1.0,False,,Inventario Herramientas,17,9 sep 2025
+HER-020,Rastrillo de metal,Herramientas,UND,3.0,False,,Máquina y Herramientas,7,
+HER-021,Rotomartillo color verde grande,Herramientas,UND,1.0,False,,Inventario Equipo,5,15 de may 2023 / 12 de feb 2018
+HER-022,Taladro chico verde,Herramientas,UND,1.0,False,,Inventario Herramientas,31,
+HER-023,Taladro inalámbrico total,Herramientas,UND,1.0,False,,Inventario Equipo,29,
+HER-024,Taladro roto,Herramientas,UND,1.0,False,,Inventario Equipo,28,12 de dic 2018 / 2013
+HER-025,Taladro verde chico verde,Herramientas,UND,1.0,False,,Inventario Equipo,23,
+HER-026,Tapas de Swiru,Herramientas,UND,2.0,False,,Inventario Herramientas,24,
+HER-027,WD-40,Herramientas,UND,1.0,True,aparece 2 veces — Inventario Herramientas f14: 1.0 / Inventario 5 Oct 2025 f9: 3.0,Inventario Herramientas,14,
+MAT-001,"Barras/varillas de 1/2""",Materiales,UND,12.0,False,,Inventario Cont.,17,21-31 de nov 2025
+MAT-002,Bultos de cemento,Materiales,UND,50.0,True,coincide con una compra del 30 sep 2025; verificar que no se cuente dos veces,Máquina y Herramientas,22,30 de sep 2025
+MAT-003,Caja de lápiz rojo,Materiales,CAJA,1.0,False,,Inventario Cont.,4,
+MAT-004,Carriolas,Materiales,UND,,True,cantidad marcada como '-' o vacía,Tubos y Materiales,8,
+MAT-005,Carriolas 4x2 #16x20,Materiales,UND,,True,cantidad marcada como '-' o vacía,Inventario Cont.,6,
+MAT-006,Cebolla en bolsita,Materiales,PAQ,1.0,False,,Máquina y Herramientas,16,12 de sep 2025
+MAT-007,Clavos de acero 1 caja,Materiales,CAJA,1.0,False,,Máquina y Herramientas,12,
+MAT-008,Clavos dulces,Materiales,UND,2.0,False,,Máquina y Herramientas,11,
+MAT-009,Conectores orgo,Materiales,UND,8.0,False,,Inventario Cont.,15,17 de nov 2025
+MAT-010,"Conectores para extensión, madre y hembra",Materiales,UND,2.0,False,,Máquina y Herramientas,19,19 de oct 2025
+MAT-011,Hojas de segueta,Materiales,UND,2.0,False,,Inventario Cont.,8,
+MAT-012,"Mallas electrosoldadas 2M, 6 mts",Materiales,M,8.0,False,,Inventario Cont.,5,
+MAT-013,Manguera verde grande,Materiales,UND,1.0,False,,Inventario Herramientas,18,
+MAT-014,Palajustros,Materiales,UND,4.0,False,,Inventario Cont.,18,
+MAT-015,"Paquete de tubo de 6"" de agua",Materiales,PAQ,1.0,False,,Máquina y Herramientas,9,6 de sep 2025
+MAT-016,Pasto en bolsita,Materiales,PAQ,1.0,False,,Máquina y Herramientas,15,12 de sep 2025
+MAT-017,Plásticos circulares,Materiales,UND,2.0,False,,Inventario Herramientas,21,9 sep 2025
+MAT-018,Repuesto de campingas,Materiales,UND,2.0,False,,Inventario Cont.,9,
+MAT-019,"Tee de 4""",Materiales,UND,2.0,True,aparece 2 veces — Inventario Cont. f10: 2.0 / Inventario Cont. f11: 1.0,Inventario Cont.,10,
+MAT-020,"Tee de 4""",Materiales,UND,1.0,True,aparece 2 veces — Inventario Cont. f10: 2.0 / Inventario Cont. f11: 1.0,Inventario Cont.,11,
+MAT-021,"Tubo de 6"" blanco",Materiales,UND,1.0,False,,Tubos y Materiales,4,
+MAT-022,Tubos de (descripción no legible),Materiales,UND,10.0,True,descripción ilegible en el cuaderno original | aparece 3 veces — Tubos y Materiales f5: 10.0 / Tubos y Materiales f6: 4.0 / Tubos y Materiales f7: 4.0 | coincide con una compra del 18 sep 2025; verificar que no se cuente dos veces,Tubos y Materiales,5,
+MAT-023,Tubos de (descripción no legible),Materiales,UND,4.0,True,descripción ilegible en el cuaderno original | aparece 3 veces — Tubos y Materiales f5: 10.0 / Tubos y Materiales f6: 4.0 / Tubos y Materiales f7: 4.0 | coincide con una compra del 18 sep 2025; verificar que no se cuente dos veces,Tubos y Materiales,6,
+MAT-024,Tubos de (descripción no legible),Materiales,UND,4.0,True,descripción ilegible en el cuaderno original | aparece 3 veces — Tubos y Materiales f5: 10.0 / Tubos y Materiales f6: 4.0 / Tubos y Materiales f7: 4.0 | coincide con una compra del 18 sep 2025; verificar que no se cuente dos veces,Tubos y Materiales,7,
+MAT-025,Tubos de alcantarilla,Materiales,UND,6.0,False,,Tubos y Materiales,3,18 de sep 2025 / 17 de sep 2025
+MAT-026,"Tubotic SCH40 c/c 1/2"" x 20",Materiales,UND,10.0,False,,Inventario Cont.,12,
+MAT-027,"Tubotic SDR26 c/c 2"" x 20",Materiales,UND,4.0,False,,Inventario Cont.,14,
+MAT-028,"Tubotic SDR26 c/c 4"" x 20",Materiales,UND,4.0,False,,Inventario Cont.,13,
+MAQ-001,Aplastadora de concreto con manguera negra,Máquinas,UND,1.0,False,,Inventario Equipo,6,Feb 2023
+MAQ-002,Bomba de agua chica,Máquinas,UND,1.0,False,,Máquina y Herramientas,3,
+MAQ-003,Bomba de agua chica verde total,Máquinas,UND,1.0,False,,Inventario Equipo,11,Ago 2023
+MAQ-004,Concretera verde,Máquinas,UND,1.0,False,,Inventario Equipo,13,#1
+MAQ-005,Cortadora grande verde,Máquinas,UND,1.0,False,,Inventario Equipo,7,13 de oct 2023
+MAQ-006,Güiras (una chica y otra grande) verde,Máquinas,UND,2.0,False,,Inventario Equipo,10,#2 2023 / #1 2023
+MAQ-007,Motor de congeladora,Máquinas,UND,2.0,True,coincide con una compra del 20 oct 2025; verificar que no se cuente dos veces,Inventario Equipo,22,2020 / 2021 / Sep 2020
+MAQ-008,Motosierra anaranjada,Máquinas,UND,1.0,False,,Inventario Equipo,18,
+MAQ-009,Máquina de soldar color verde con máscara,Máquinas,UND,1.0,False,,Inventario Equipo,21,2016 / 2018 / 2020 / Sep 2021
+MAQ-010,Sapo verde ( Compactadora tipo Rana / Apisonador),Máquinas,UND,1.0,False,,Inventario Equipo,9,
+MAQ-011,Sierra de árboles anaranjado,Máquinas,UND,1.0,False,,Inventario Equipo,12,
+MAQ-012,Sierra grande verde,Máquinas,UND,1.0,False,,Inventario Equipo,19,
+MAQ-013,Sierra verde pequeña,Máquinas,UND,1.0,False,,Inventario Equipo,8,
+MAQ-014,Soplador (2024),Máquinas,UND,1.0,False,,Inventario Equipo,4,
+MAQ-015,Vibrador verde con negro,Máquinas,UND,1.0,False,,Inventario Equipo,15,12 de feb 2018 / Junio 2020
+SEG-001,Chalecos,Seguridad,UND,2.0,False,,Inventario Herramientas,3,13 de sep 2025
+SEG-002,Paquete de cubrebocas tipo concha,Seguridad,PAQ,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,4,
+SEG-003,Paquete mascarilla KN95,Seguridad,PAQ,1.0,True,"proviene del conteo fechado 5-oct-2025, puede solaparse con el inventario general",Inventario 5 Oct 2025,11,
+SEG-004,Par de botas negra Lually (EPS GARFITADO ),Seguridad,PAR,1.0,False,,Máquina y Herramientas,23,21 de sep 2025
+SEG-005,Pares de guantes de soldadura,Seguridad,PAR,2.0,True,coincide con una compra del 15 sep 2025; verificar que no se cuente dos veces,Inventario Herramientas,4,13 de sep 2025
+SEG-006,Tapas bocas,Seguridad,UND,,True,cantidad marcada como '-' o vacía,Máquina y Herramientas,14,
+SEG-007,Yanas,Seguridad,UND,,True,cantidad marcada como '-' o vacía,Máquina y Herramientas,13,
