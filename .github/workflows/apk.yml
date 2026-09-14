@@ -15,6 +15,11 @@ on:
   push:
     branches: [main, master]
   workflow_dispatch:
+    inputs:
+      saltar_login:
+        description: 'Build de vista previa: salta la pantalla de acceso (SOLO para revisar estética, nunca distribuir)'
+        type: boolean
+        default: false
 
 jobs:
   construir:
@@ -34,6 +39,7 @@ jobs:
         env:
           VITE_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          VITE_DEV_SKIP_AUTH: ${{ inputs.saltar_login && 'true' || 'false' }}
         run: npm run build
 
       - uses: actions/setup-java@v4
@@ -54,6 +60,6 @@ jobs:
       - name: Publicar el APK
         uses: actions/upload-artifact@v4
         with:
-          name: asignapp-debug-apk
+          name: ${{ inputs.saltar_login && 'asignapp-VISTA-PREVIA-sin-login' || 'asignapp-debug-apk' }}
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
