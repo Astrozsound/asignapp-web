@@ -12,14 +12,14 @@ import type { Alerta, Panel, Producto } from '../../lib/tipos'
 
 type Seccion = 'panel' | 'inventario' | 'entrada' | 'conteos' | 'obras' | 'historial' | 'nuevo'
 
-const SECCIONES: [Seccion, string][] = [
-  ['panel', 'Panel'],
-  ['inventario', 'Inventario'],
-  ['entrada', 'Registrar entrada'],
-  ['conteos', 'Conteos por aprobar'],
-  ['obras', 'Obras'],
-  ['historial', 'Historial'],
-  ['nuevo', 'Nuevo producto'],
+const SECCIONES: [Seccion, string, string][] = [
+  ['panel', 'Panel', 'tile-azul'],
+  ['inventario', 'Inventario', 'tile-gris'],
+  ['entrada', 'Registrar entrada', 'tile-azul-claro'],
+  ['conteos', 'Conteos por aprobar', 'tile-gris-claro'],
+  ['obras', 'Obras', 'tile-azul-oscuro'],
+  ['historial', 'Historial', 'tile-slate'],
+  ['nuevo', 'Nuevo producto', 'tile-verde'],
 ]
 
 export function AppAdmin() {
@@ -31,8 +31,8 @@ export function AppAdmin() {
       <Barra accion={<button className="btn" style={{ minHeight: 40, padding: '0 14px' }} onClick={() => void salir()}>Salir</button>} />
       <div className="disposicion">
         <nav className="rail">
-          {SECCIONES.map(([s, t]) => (
-            <a key={s} href="#" className={seccion === s ? 'activo' : ''}
+          {SECCIONES.map(([s, t, color]) => (
+            <a key={s} href="#" className={`${color} ${seccion === s ? 'activo' : ''}`}
                onClick={e => { e.preventDefault(); setSeccion(s) }}>{t}</a>
           ))}
         </nav>
@@ -84,9 +84,9 @@ function PanelPrincipal({ ir }: { ir: (s: Seccion) => void }) {
           </div>
 
           <div className="rejilla tres" style={{ marginBottom: 22 }}>
-            <button className="btn principal enorme" onClick={() => ir('nuevo')}>Agregar producto</button>
-            <button className="btn enorme" onClick={() => ir('entrada')}>Registrar entrada</button>
-            <button className="btn enorme" onClick={() => ir('conteos')}>Revisar conteos</button>
+            <button className="btn enorme tile-verde" onClick={() => ir('nuevo')}>Agregar producto</button>
+            <button className="btn enorme tile-azul" onClick={() => ir('entrada')}>Registrar entrada</button>
+            <button className="btn enorme tile-azul-claro" onClick={() => ir('conteos')}>Revisar conteos</button>
           </div>
         </>
       )}
@@ -179,8 +179,51 @@ function Inventario() {
       <p style={{ color: 'var(--texto-tenue)', marginTop: 0 }}>
         {productos.length} artículos · {productos.filter(p => p.requiere_revision).length} por revisar
       </p>
-      <BuscadorProductos onElegir={setSel} />
+      <InventarioPorCategoria productos={productos} onElegir={setSel} />
     </div>
+  )
+}
+
+const ORDEN_CATEGORIAS = ['Herramientas', 'Equipos', 'Máquinas', 'Materiales', 'Seguridad', 'Consumibles']
+
+function InventarioPorCategoria({ productos, onElegir }: { productos: Producto[]; onElegir: (p: Producto) => void }) {
+  const [q, setQ] = useState('')
+  const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '')
+  const filtrados = q.trim()
+    ? productos.filter(p => norm(p.nombre).includes(norm(q)) || (p.sku ?? '').toLowerCase().includes(q.toLowerCase()))
+    : productos
+
+  const grupos = new Map<string, Producto[]>()
+  for (const p of filtrados) {
+    const cat = p.categoria ?? 'Sin categoría'
+    if (!grupos.has(cat)) grupos.set(cat, [])
+    grupos.get(cat)!.push(p)
+  }
+  const categorias = [...grupos.keys()].sort((a, b) => {
+    const ia = ORDEN_CATEGORIAS.indexOf(a); const ib = ORDEN_CATEGORIAS.indexOf(b)
+    if (ia === -1 && ib === -1) return a.localeCompare(b)
+    if (ia === -1) return 1
+    if (ib === -1) return -1
+    return ia - ib
+  })
+
+  return (
+    <>
+      <label className="campo">
+        <input placeholder="Buscar por nombre o código" value={q} onChange={e => setQ(e.target.value)} />
+      </label>
+      {filtrados.length === 0
+        ? <Vacio titulo="Nada con ese nombre">Prueba con una palabra más corta.</Vacio>
+        : categorias.map(cat => (
+          <div key={cat}>
+            <div className="cat-cabecera">
+              {cat}
+              <span className="cuenta">{grupos.get(cat)!.length}</span>
+            </div>
+            {grupos.get(cat)!.map(p => <FilaProducto key={p.id} p={p} onClick={() => onElegir(p)} />)}
+          </div>
+        ))}
+    </>
   )
 }
 

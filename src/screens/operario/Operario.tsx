@@ -29,23 +29,23 @@ function Inicio({ ir }: { ir: (v: Vista) => void }) {
   const nombre = perfil?.nombre?.split(' ')[0] ?? ''
   return (
     <>
-      <div className="cuerpo">
+      <div className="cuerpo fija">
         <h1 style={{ marginBottom: 18 }}>Hola, {nombre}</h1>
-        <button className="btn principal enorme ancho" style={{ marginBottom: 12 }} onClick={() => ir('sacar')}>
+        <button className="btn enorme ancho tile-azul" style={{ marginBottom: 12 }} onClick={() => ir('sacar')}>
           Escanear y sacar
           <span className="sub">Llevar algo a una obra</span>
         </button>
         <div className="rejilla">
-          <button className="btn enorme" onClick={() => ir('devolver')}>
+          <button className="btn enorme tile-azul-oscuro" onClick={() => ir('devolver')}>
             Devolver<span className="sub">Regresar a bodega</span>
           </button>
-          <button className="btn enorme" onClick={() => ir('conteo')}>
+          <button className="btn enorme tile-gris" onClick={() => ir('conteo')}>
             Contar<span className="sub">Conteo físico</span>
           </button>
-          <button className="btn enorme" onClick={() => ir('buscar')}>
+          <button className="btn enorme tile-gris-claro" onClick={() => ir('buscar')}>
             Buscar<span className="sub">{productos.length} artículos</span>
           </button>
-          <button className="btn enorme" onClick={() => ir('movimientos')}>
+          <button className="btn enorme tile-slate" onClick={() => ir('movimientos')}>
             Mis movimientos<span className="sub">Lo que registré</span>
           </button>
         </div>
@@ -132,9 +132,11 @@ function Flujo({ tipo, volver }: { tipo: 'SALIDA' | 'DEVOLUCION'; volver: () => 
     )
   }
 
+  const fija = paso === 'cantidad' || (paso === 'destino' && !esSalida) || (paso === 'producto' && buscando)
+
   return (
     <>
-      <div className="cuerpo">
+      <div className={fija ? 'cuerpo fija' : 'cuerpo'}>
         <h2 style={{ marginBottom: 14 }}>{titulo}</h2>
         <Error_>{error}</Error_>
 
@@ -267,7 +269,7 @@ function Conteo({ volver }: { volver: () => void }) {
 
   return (
     <>
-      <div className="cuerpo">
+      <div className={prod ? 'cuerpo fija' : 'cuerpo'}>
         <h2 style={{ marginBottom: 14 }}>Conteo físico</h2>
         <Error_>{error}</Error_>
         {!prod
@@ -311,7 +313,7 @@ function Consultar({ volver }: { volver: () => void }) {
 
   return (
     <>
-      <div className="cuerpo">
+      <div className={(prod || escaneando) ? 'cuerpo fija' : 'cuerpo'}>
         <h2 style={{ marginBottom: 14 }}>Buscar</h2>
         {prod ? (
           <div className="tarjeta">
