@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Identidad ASIGNAPP: amarillo industrial sobre negro -->
-    <color name="colorPrimary">#111111</color>
-    <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#FFC000</color>
-    <color name="fondoSplash">#111111</color>
-</resources>
